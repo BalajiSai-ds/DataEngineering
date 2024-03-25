@@ -38,6 +38,8 @@ def file_converter(src_base_dir,tgt_base_dir,ds_name):
 def process_files(ds_names = None):
     src_base_dir = 'data/retail_db'
     tgt_base_dir = 'data/retail_db_json'
+    #src_base_dir = 'data/retail_db'
+    #tgt_base_dir = 'data/retail_db_json'
     schemas = json.load(open(f'{src_base_dir}/schemas.json'))
     if not ds_names:
         ds_names = schemas.keys()
