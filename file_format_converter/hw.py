@@ -10,7 +10,7 @@ print(f"Hello {arg} from {prog_file}")
 
 host = os.environ.get('HOST')
 
-print(f'connecting to {host}')
+print(f'connecting to {host}')  
 # appdev -> appdbdev (retail_db, retail_user, retaildevpassword)
 
 # appuat -> appdbuat (retail_db, retail_user, retailuatpassword)
